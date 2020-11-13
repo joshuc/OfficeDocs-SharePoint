@@ -47,7 +47,7 @@ If you are having issues loading the SharePoint Migration tool, here are a few i
 
 If you are on a government cloud, you must first take these steps:
 
-1. Open microsoft.sharepoint.migration.common.dll.config.
+1. Open microsoft.sharepoint.migration.common.dll.config located at %localappdata%\Apps\SharePointMigrationTool\SPMT.
 2. Change the value of **SPOEnvironmentType** to:
 
     - **2** if you are GCC high or DoD
