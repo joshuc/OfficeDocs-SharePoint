@@ -61,12 +61,12 @@ The following table lists the required endpoints for using the SharePoint Migrat
 |https://<span><span>api.office.<span><span>com|Microsoft 365 APIs for content move and validation|
 |https://<span><span>graph.windows.<span><span>net|Microsoft 365 APIs for content move and validation|
 |https://<span><span>spmtreleasescus.blob.core.windows.<span><span>net|Installation|
-|https://<span><span>*.queue.core.windows.<span><span>net|Migration API Azure requirement|
-|https://<span><span>*.blob.core.windows.<span><span>net|Migration API Azure requirement|
+|https://<span><span>*.queue.core.windows.<span><span>net|Migration API Azure requirement (not required for Government Tenants)|
+|https://<span><span>*.queue.core.usgovcloudapi.<span><span>net|Migration API Azure Government requirement|
+|https://<span><span>*.blob.core.windows.<span><span>net|Migration API Azure requirement (not required for Government Tenants)|
+|https://<span><span>*.blob.core.usgovcloudapi.<span><span>net|Migration API Azure Government requirement|
 |https://<span><span>*.pipe.aria.microsoft.<span><span>com|Telemetry/update|
 |https://<span><span>*.sharepoint.<span><span>com|Destination for migration|
-|https://<span><span>*.blob.core.usgovcloudapi.<span><span>net|Migration API Azure Government requirement|
-|https://<span><span>*.queue.core.usgovcloudapi.<span><span>net|Migration API Azure Government requirement|
 |https://<span><span>spoprod-a.akamaihd.<span><span>net|UI icons|
 |https://<span><span>static2.sharepointonline.<span><span>com|UI icons|
 
@@ -78,4 +78,5 @@ The following table lists the required endpoints for using the SharePoint Migrat
 |:-----|:-----|
 |https://<span><span>*.table.core.windows.net|Required only if you choose to use your Azure Storage account.  See **Use custom Azure storage** in Settings.|
 
-
+>[!Note]
+>Government Cloud users must configure the SharePoint Migration Tool after installation.  For more information on this change see: [Government cloud support](spmt-install-issues.md#government-cloud-support).
