@@ -55,7 +55,8 @@ After downloading and installing SPMT, read [How to use the SharePoint Migration
 
 If you experience issues with your installation, see [Troubleshooting installation issues](spmt-install-issues.md).
 
-
+>[!Note]
+>Government Cloud users must configure the SharePoint Migration Tool after installation.  For more information on this change see: [Government cloud support](spmt-install-issues.md#government-cloud-support).
 
 ## Supported features
 
